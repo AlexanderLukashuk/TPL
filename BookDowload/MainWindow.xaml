@@ -1,0 +1,16 @@
+﻿<Window x:Class="BookDowload.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookDowload"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="370" Width="500">
+    <Grid>
+        <Button Content="Скачать книгу" Click="DownloadBook" HorizontalAlignment="Left" Margin="27,258,0,0" VerticalAlignment="Top" FontSize="35" Height="55" Width="246"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,15,0,0" Text="Книга: Язык программирования C# 7 и платформы .NET и .NET Core, 8-е изд. Эндрю Троелсен, Филипп Джепикс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="25" Width="421"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="27,214,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,167,0,0" Text="Введите имя для книги на диске:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="25"/>
+
+    </Grid>
+</Window>
